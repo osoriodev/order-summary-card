@@ -1,0 +1,38 @@
+:root {
+  --clr-primary: #3829E0;
+  --clr-primary-lt: #7280A7;
+  --clr-primary-ltr: #E0E8FF;
+  --clr-primary-ltst: #F5F7FF;
+  --clr-primary-dk: #1F2F56;
+  --clr-ntrl-max: #FFF;
+  --clr-primary-hover: #766CF1;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.1;
+}
+ul {
+  list-style: none;
+}
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
